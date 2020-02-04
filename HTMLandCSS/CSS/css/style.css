@@ -158,3 +158,39 @@ a:visited{
 	padding: 15px;
 	box-sizing: border-box;
 }
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url('download.jpeg')
+}
+
+.p-box h1{
+	position: absolute;
+	top:40px;
+}
+
+.p-box h2{
+	position: absolute;
+	bottom: 40px;
+}
+
+.fix-me{
+	position: fixed;
+	top:400px;
+}
+
+.my-list li:last-child{
+	background:red;
+}
+
+.my-list li:nth-child(5){
+	background:yellow; 
+}
+
+.my-list li:nth-child(even){
+	background:grey;
+}
